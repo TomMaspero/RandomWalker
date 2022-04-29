@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Salida Grafica" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Salida Grafica" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Salida Grafica" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/MinGW/freeglut/include" />
+			<Add directory="C:/MinGW/freeglut/bin" />
+			<Add directory="C:/MinGW/freeglut/lib" />
+		</Compiler>
+		<Linker>
+			<Add option="-I" />
+			<Add option="-L" />
+			<Add option="-lfreeglut" />
+			<Add option="-lopengl32" />
+			<Add library="C:/MinGW/freeglut/lib/libfreeglut.a" />
+			<Add directory="C:/MinGW/freeglut/include" />
+			<Add directory="C:/MinGW/freeglut/bin" />
+			<Add directory="C:/MinGW/freeglut/lib" />
+		</Linker>
+		<Unit filename="Stacker 3.0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glut.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glut.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

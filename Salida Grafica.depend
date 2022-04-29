@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1619925643 source:c:\users\tdmal\onedrive\desktop\pasantía\salida grafica\glut.c
+	"glut.h"
+
+1619725600 c:\users\tdmal\onedrive\desktop\pasantía\salida grafica\glut.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"OpenGL/gl.h"
+	"OpenGL/glu.h"
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<GL/glut.h>
+
+1426360528 c:\mingw\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1426360528 c:\mingw\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1619925992 source:c:\users\tdmal\onedrive\desktop\pasantía\salida grafica\stacker 3.0.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"glut.h"
+
+1620159714 source:c:\users\tom\desktop\things\pasantía\random walker\salida grafica original\glut.c
+	"glut.h"
+
+1620159713 c:\users\tom\desktop\things\pasantía\random walker\salida grafica original\glut.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"OpenGL/gl.h"
+	"OpenGL/glu.h"
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+
+1426360528 c:\mingw\freeglut\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1426360528 c:\mingw\freeglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1620763850 source:c:\users\tom\desktop\things\pasantía\random walker\salida grafica original\stacker 3.0.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"glut.h"
+
